@@ -24,13 +24,13 @@ slider2 = createSlider(10,400, 200,2);
 slider2.position(100, 100);
 slider2.style('width', '200px');
 
-textFont(font);
+//textFont(font);
 }
 
 function draw() {
 background(20);
 fill(217,179,16);
-textSize(28);
+textSize(24);
 text("speed",20,60);
 text("points",20,110);
 noFill();
