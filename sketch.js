@@ -15,7 +15,7 @@ function getVector(index){
 function setup() {
 	createCanvas(windowWidth, windowHeight);
 	r= width/5;
-font = loadFont('/assets/DancingScript-Regular.otf');
+font = loadFont('assets/dancingscript-regular.otf');
 slider1 = createSlider(0, 0.02, 0.01,0.001);
 slider1.position(100, 50);
 slider1.style('width', '200px');
@@ -28,10 +28,11 @@ textFont(font);
 }
 
 function draw() {
-	background(20);
-	fill(217,179,16);
-text("speed",20,60);textSize(28);
-text("points",20,110);textSize(28);
+background(20);
+fill(217,179,16);
+textSize(28);
+text("speed",20,60);
+text("points",20,110);
 noFill();
 	var val1 = slider1.value();
   var val2 =slider2.value();
